@@ -19,7 +19,7 @@ describe("Test API REST ful: Test Interno", () => {
   });
 
   describe("POST", () => {
-    it("Debería agregar un usuario", async () => {
+    it("Debería agregar una palabra", async () => {
       const server = new Server();
       const app = await server.start();
 
